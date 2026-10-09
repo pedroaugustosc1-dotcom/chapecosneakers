@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://chapecosneakers.com.br'),
   title: 'Chapeco Sneakers — Ande diferente',
   description: 'Uma curadoria de sneakers para quem transforma o cotidiano em identidade.',
   openGraph: {
